@@ -1,0 +1,146 @@
+body{
+    background-color: black;
+}
+
+h2 { 
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family:"police", arial;
+}
+
+.container{
+    justify-content: space-between;
+    color: white;
+    flex-direction: row;
+    display: flex;
+    font-size: 10em;
+}
+
+@font-face {
+    font-family: police;
+    src: url(ERASLGHT.TTF);
+}
+
+.roue{
+    height: 400px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.grayscale img:hover  {
+
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+    
+    }
+    
+    .grayscale img{
+    
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    
+    }
+
+#texte {
+    color: white;
+    padding-left: 400px;
+    padding-right: 300px;
+    font-size: 1.5em;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family:"police", arial;
+}
+
+.londre{
+    padding-top: 500px;
+}
+@font-face {
+    font-family: police slogan;
+    src: url(KUNSTLER.TTF);
+}
+
+.n{
+    font-family:"police slogan", arial ;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+
+.petite{
+    height: 200px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#transport{
+    color: white;
+    padding-left: 400px;
+    padding-right: 300px;
+    font-size: 1.5em;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family:"police", arial;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    text-align:center;
+    
+  }
+  
+  li {
+    display: inline-block;
+  }
+  li a {
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    color:white;
+  }
+
+  .email, .message{
+    color: white;
+    font-size: 1em;
+    font-family:"police", arial;
+    text-align: center;
+  }
+
+  .label{
+    width: 600px;
+    margin: 0 550px;
+    padding: 10px;
+    padding-top: 10px;
+  }
+  
+  input, textarea, select{
+          text-align: left;
+          width: 70%;
+          border: 1px solid #999;
+          border-radius: 0;
+          margin: 20;
+          box-sizing: border-box;
+          padding-bottom: 10px;
+  }
+  
+  /*couleur bouton*/
+  .bouton {
+      background-color: white;
+      text-align:center;
+      display: inline-block;
+      color: black;
+      width: 100px;
+  }
+
+.nom, .prenom, .mail, .raisons, .com{
+      color: white;
+  }
